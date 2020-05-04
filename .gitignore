@@ -8,6 +8,9 @@ firebase-debug.log*
 *.DS_Store
 .DS_Store
 
+# HUGO
+public/*
+
 # Firebase cache
 .firebase/
 
