@@ -9,7 +9,7 @@ jobs:
             - checkout
             - run:
                 name: Compilando el codigo
-                command: hugo
+                command: /usr/bin/hugo
             - run:
                 name: Firebase Deploy
                 command: firebase deploy --token "$FIREBASE_DEPLOY_TOKEN" --only hosting
