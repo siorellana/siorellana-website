@@ -1,15 +1,11 @@
 +++
 author = "siorellana"
-categories = ["AWS" , "ELB", "Cloud"]
+title = "AWS AutoScaling y Elastic Load Balancer (ELB)"
 date = "2019-06-08"
 description = "Conceptos básicos sobre AutoScaling y Load Balancer"
-featured = "unplash-load.jpg"
-featuredalt = "AutoScaling"
-featuredpath = "date"
-linktitle = ""
-title = "AWS AutoScaling y Elastic Load Balancer (ELB)"
-type = "post"
-
+categories = ["AWS"]
+tags = ["AWS" , "ELB", "Cloud", "DevOps"]
+images = ["img/2019/06/unplash-load.jpg"]
 +++
 
 # Autoscaling

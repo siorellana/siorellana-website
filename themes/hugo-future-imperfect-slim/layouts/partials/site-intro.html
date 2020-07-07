@@ -1,5 +1,5 @@
-<section id="site-intro">
-  {{ with .Site.Params.intro.pic }}<a href="{{ "/" | relLangURL}}"><img src="{{ .src | relURL }}" class="{{ .shape }}" width="{{ .width }}" alt="{{ .alt }}" /></a>{{ end }}
+<section id="site-intro" {{ if (and (.Site.Params.intro.hideWhenSingleColumn) (not (and .Page.IsHome .Site.Params.intro.alwaysOnHomepage))) }}class="hidden-single-column"{{ end }}>
+  {{ with .Site.Params.intro.pic }}<a href="{{ "/" | relLangURL}}"><img src="{{ .src | absURL }}" class="{{ .shape }}" width="{{ .width }}" alt="{{ .alt }}" /></a>{{ end }}
   <header>
     {{ with .Site.Params.intro.header }}<h1>{{ . | safeHTML }}</h1>{{ end }}
   </header>
@@ -8,9 +8,9 @@
   </main>
   {{ if or (.Site.Params.intro.rssIntro) (.Site.Params.intro.socialIntro) }}
     <footer>
-      <ul class="social-icons">
+      <ul class="socnet-icons">
         {{ if .Site.Params.intro.rssIntro }}{{ partial "rss-icon" . }}{{ end }}
-        {{ if .Site.Params.intro.socialIntro }}{{ partial "social-icon" . }}{{ end }}
+        {{ if .Site.Params.intro.socialIntro }}{{ partial "socnet-icon" . }}{{ end }}
       </ul>
     </footer>
   {{ end }}

@@ -1,10 +1,9 @@
 +++
 author = ""
-categories = []
+title = ""
+date = ""
 description = ""
-linktitle = ""
-featured = ""
-featuredpath = ""
-featuredalt = ""
-
+tags = [""]
+categories = [""]
+images = [""]
 +++

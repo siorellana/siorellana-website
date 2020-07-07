@@ -1,15 +1,11 @@
 +++
 author = "siorellana"
-categories = ["AWS" , "DB", "Cloud", "RDS"]
+title = "AWS Database Essentials"
 date = "2019-06-09"
 description = "Conceptos básicos sobre Bases de Datos"
-featured = "unplash-database.jpg"
-featuredalt = "Databases"
-featuredpath = "date"
-linktitle = ""
-title = "AWS Database Essentials"
-type = "post"
-
+categories = ["AWS"]
+tags = ["AWS" , "DB", "Cloud", "RDS"]
+images = ["img/2019/06/unplash-database.jpg"]
 +++
 
 # AWS Database Essentials

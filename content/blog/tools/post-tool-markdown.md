@@ -1,15 +1,14 @@
 +++
 author = "Markdown Cheatsheet"
-categories = ["Markdown", "Herramientas"]
-date = "2019-06-01"
-description = "Breve guía para utilizar esta herramientas y crear documentos en formato .md"
-featured = "markdown.jpg"
-featuredalt = ""
-featuredpath = "date"
-linktitle = ""
 title = "Guía para usar Markdown"
-type = "post"
-
+date = "2019-03-10"
+description = "Breve guía para utilizar esta herramientas y crear documentos en formato .md"
+tags = [
+    "markdown",
+    "tool",
+]
+categories = ["tool"]
+images = ["img/2019/06/markdown.jpg", "img/2014/04/pic01.jpg"]
 +++
 
 Markdown es una herramienta de escritura que es utilizada generalmente para hacer la conversión de texto plano a HTML. Tiene una forma de escribir bastante sencilla y debido a que es texto plano, siempre mantiene un diseño legible y compatible con todas las plataformas o aplicaciones en cualquier dispositivo.

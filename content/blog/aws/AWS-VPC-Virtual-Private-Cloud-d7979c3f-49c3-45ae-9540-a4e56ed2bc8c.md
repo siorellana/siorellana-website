@@ -3,13 +3,8 @@ author = "siorellana"
 categories = ["AWS" , "VPC", "Cloud"]
 date = "2019-06-07"
 description = "Principios básicos de Networking de AWS (VPC)"
-featured = "unplash-network.jpg"
-featuredalt = "Networking"
-featuredpath = "date"
-linktitle = ""
 title = "AWS Virtual Private Cloud (VPC)"
-type = "post"
-
+images = ["img/2019/06/unplash-network.jpg"]
 +++
 
 # AWS VPC Virtual Private Cloud 

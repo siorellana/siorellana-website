@@ -1,15 +1,10 @@
 +++
 author = "siorellana"
-categories = ["Jenkins" , "DevOps", "Cloud"]
-date = "2019-08-05"
-description = "Principios básicos de Jenkins"
-featured = "deva-darshan-Jt9syHEhrPE-unsplash.jpg"
-featuredalt = "Photo by Deva Darshan on Unsplash"
-featuredpath = "date"
-linktitle = ""
 title = "Jenkins in a nutshell"
-type = "post"
-
+date = "2020-03-05"
+description = "Principios básicos de Jenkins"
+tags = ["Jenkins" , "DevOps", "Cloud"]
+images = ["img/2019/08/deva-darshan-Jt9syHEhrPE-unsplash.jpg"]
 +++
 
 # Fundamentos de Jenkins

@@ -15,7 +15,6 @@
         Text for the caption of the image
     position 3, name: gallery
         Name of the gallery the image should be included in
-        
 -->
 {{ $numOfParams := len .Params}}
 {{ if and (ge $numOfParams 2) (le $numOfParams 4) }}
@@ -49,7 +48,7 @@
   {{ $caption  := $.Scratch.Get "caption" }}
   {{ $gallery := $.Scratch.Get "gallery" }}
   <div class="fancybox">
-    <a data-fancybox="{{ $gallery }}" href="{{ $path }}/{{ $file }}" data-caption="{{ $caption }}"><img src="{{ $path }}/{{ $file }}"></a>
+    <a data-fancybox="{{ $gallery }}" href="{{ path.Join $path $file | relURL }}" data-caption="{{ $caption }}"><img src="{{ path.Join $path $file | absURL }}"></a>
     <div class="caption">{{ $caption }}</div>
   </div>
 {{ end }}

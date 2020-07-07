@@ -1,15 +1,11 @@
 +++
 author = "siorellana"
-categories = ["AWS" , "EC2", "Cloud"]
+categories = ["AWS"]
+tags = ["AWS" , "EC2", "Cloud"]
 date = "2019-06-05"
 description = "Principios básicos de AWS EC2"
-featured = "alexandre-debieve-561298-unsplash.jpg"
-featuredalt = "Photo by Alexandre Debiève on Unsplash"
-featuredpath = "date"
-linktitle = ""
 title = "AWS Elastic Compute Cloud (EC2)"
-type = "post"
-
+images = ["img/2019/06/alexandre-debieve-561298-unsplash.jpg"]
 +++
 
 # AWS EC2 Elastic Compute Cloud
